@@ -60,6 +60,18 @@
 		padding-top:90px;
 		
 		}
+	.images{
+		display:flex;
+		margin:20px;
+		height:200px;
+		width:76%;
+		background-color:#ccc;
+		padding-bottom:50px;
+		padding-left:290px;	
+	}
+    
+		
+		
 	.pra{
 		padding-bottom:50px;
 		font-size:20px;
