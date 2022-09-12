@@ -88,7 +88,7 @@ header{
 	transition: 0.3s;
 }
 .navilink li a:hover{
-	color:yellow;
+	color:#ffc107;
 }
 .head-content{
 	width:65%;
@@ -1752,6 +1752,9 @@ header{
 .logo4 i{
 	margin-top:10px;
 }
+.logo4:hover{
+	 background-color:#ffc107;
+}
 .logo5{
 	background-color:blue;
 	width:15%;
@@ -1765,6 +1768,9 @@ header{
 .logo5 i{
 	margin-top:10px;
 }
+.logo5:hover{
+	 background-color:#ffc107;
+}
 .logo6{
 	background-color:blue;
 	width:15%;
@@ -1774,6 +1780,9 @@ header{
 	text-align:center;
 	background: #e1e4ec;
     color: #5f6f92;
+}
+.logo6:hover{
+	 background-color:#ffc107;
 }
 .logo6 i{
 	margin-top:10px;
@@ -1788,6 +1797,9 @@ header{
 	background: #e1e4ec;
     color: #5f6f92;
 }
+.logo7:hover{
+	 background-color:#ffc107;
+}
 .logo7 i{
 	margin-top:10px;
 }
@@ -1800,6 +1812,9 @@ header{
 	text-align:center;
 	background: #e1e4ec;
     color: #5f6f92;
+}
+.logo8:hover{
+	 background-color:#ffc107;
 }
 .logo8 i{
 	margin-top:10px;
