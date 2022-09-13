@@ -1,0 +1,35 @@
+
+
+.backimg{
+	
+	background-image:url(../images/back.jpg);
+	height:500px;
+	width:40%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+	margin-left:400px;
+	margin-top:50px;
+	border-radius:10px;
+}
+.user{
+	margin-left: 15%;
+    margin-top: 50px;
+    background: #E1E8EF ;
+    border: 1px solid black ;
+    width: 67%;
+    height: 35px;
+	border-radius:4px;
+	
+}
+button{
+	 border: 1px solid #0095f6 ;
+	color:#fff;
+	background-color:#0095f6;
+	margin-left: 15%;
+    margin-top: 50px;
+	 width: 67%;
+    height: 35px;
+	border-radius:50px;
+	cursor:pointer;
+}
