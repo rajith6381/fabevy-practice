@@ -208,3 +208,113 @@ header{
 	color:#4e4e4e;
 	margin-top:25px;
 }
+.page-3{
+	width:100%;
+	height:30vh;
+	text-align:center;
+}
+.page-3 h1{
+	padding-top:80px;
+	padding-bottom:20px;
+	font-family:sans-serif;	
+	font-size:2.5rem;
+	font-weight:600;
+}
+.page-3 p{
+	font-size:1.20rem;
+	font-family:sans-serif;	
+	font-weight:300;
+	color:#4e4e4e;
+	position:relative;
+	z-index:1;
+	
+}
+.page-3 p::after{
+	position:absolute;
+	content:"";
+	z-index:-1;
+	width:5%;
+	height:0.4vh;
+	background-color:#0078ff;
+	top:30px;
+	left:540px;
+}
+.service{
+	width:100%;
+	height:110vh;
+}
+.serv-1{
+	width:100%;
+	height:55vh;
+	display:flex;
+	justify-content:space-between;
+	
+}
+.serv-2{
+	width:100%;
+	height:55vh;
+	margin-top:40px;
+	display:flex;
+	justify-content:space-between;
+}
+.servecont1{
+	width:32%;
+	height:55vh;
+	background-color:#fff;
+	border-radius:20px;
+	text-align:center;
+	box-shadow:0 0 10px #ccc;
+}
+.servecont2{
+	width:32%;
+	height:55vh;
+	background-color:#fff;
+	box-shadow:0 0 10px #ccc;
+	border-radius:20px;
+}
+.servecont3{
+	width:32%;
+	height:55vh;
+	background-color:#fff;
+	box-shadow:0 0 10px #ccc;
+	border-radius:20px;
+}
+.servecont4{
+	width:32%;
+	height:55vh;
+	background-color:#fff;
+	box-shadow:0 0 10px #ccc;
+	border-radius:20px;
+}
+.servecont5{
+	width:32%;
+	height:55vh;
+	background-color:#fff;
+	box-shadow:0 0 10px #ccc;
+	border-radius:20px;
+}
+.servecont6{
+	width:32%;
+	height:55vh;
+	background-color:#fff;
+	box-shadow:0 0 10px #ccc;
+	border-radius:20px;
+}
+.design{
+	width:35%;
+	height:20vh;
+	margin-left: 30%;
+    margin-top: 20px;
+	border-radius:50%;
+	border:10px solid #0078ff;
+}
+.design i{
+	font-size:50px;	
+}
+.design:hover{
+	background-color:#0078ff;
+	border-color:#0dcaf0;
+}
+.servecont1 h1{
+	font-family:sans-serif;	
+}
