@@ -58,3 +58,24 @@ button{
 	height:25vh;
 	background:yellow;
 }
+.create{
+	width:85%;
+	height:40vh;
+	margin:auto;
+}
+table{
+	width:80%;
+	margin-top:10px;
+}
+table th{
+	font-family:sans-serif;
+	text-align:left;
+}
+table,th,td{
+	border:1px solid #FA7C14 ;
+	border-collapse:collapse;
+}
+caption{
+	border:1px solid #000;
+	background:#F284EF;
+}
