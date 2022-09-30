@@ -11,9 +11,15 @@
   h1 {
   color:red;
   }
+  h2{
+   text-align:center;
+  }
   
   table, th, td {
   border: 1px solid black;
+}
+table{
+  width:30%;
 }
 
 </style>
@@ -295,6 +301,334 @@ rajith<br> guru<br> ganesh
 <h1>em tag</h1>
 <p>You <em>have</em> to hurry up!</p>
 
+  <!--embeded tag-->
+		<h3>embeded tag</h3>
+		<p>used to embeded image,video,audio from other resource</p>
+		<embed type="image/jpg" src="pic_trulli.jpg" width="300" height="200">
+			<hr>
 
+
+		<!--fieldset ,form ,input ,label ,legend tag-->
+		<h3>fieldset ,form ,input ,label ,legend tag</h3>
+		<p>input</p>
+		<form action="/action_page.php">
+			
+			<fieldset>
+				
+			  <legend>Personalia:</legend>
+			  <label for="fname">First name:</label>
+			  <input type="text" id="fname" name="fname"><br><br>
+			  <label for="lname">Last name:</label>
+			  <input type="text" id="lname" name="lname"><br><br>
+			  <label for="email">Email:</label>
+			  <input type="email" id="email" name="email"><br><br>
+			  <label for="birthday">Birthday:</label>
+			  <input type="date" id="birthday" name="birthday"><br><br>
+			  <input type="submit" value="Submit">
+			</fieldset>
+		  </form>
+        <hr>
+
+
+
+		<!--figure and figcaption tag-->
+		<h3>figure and figcaption tag</h3>
+		<figure>
+			<img src="D:\fabevy\practice\fabevy-practice\workspace.jpg" alt="Trulli" style="width:50%">
+			<figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+		  </figure>
+        <hr>
+
+
+		<!--font tag-->
+		<h3>font tag</h3>
+		<p>not used in html5 instead use color,font-family,font-size in css</p>
+		<hr>
+
+
+		<!--footer tag-->
+		<h3>footer tag</h3>
+		<p>footer for a page where contact,copyright given</p>
+		<hr>
+
+
+		<!--frame ,frameset ,iframe ,noframe,tag-->
+		<h3>frame ,frameset ,iframe , noframe tag</h3>
+		<p>frame ,frameset ,noframe tag not used in html5 instead use iframe tag</p>
+		<h5>to embeded another documaent within current html file</h5>
+		<iframe src="https://www.w3schools.com"></iframe>
+		<hr>
+
+
+		<!--h1 to h6-->
+		<h3>h1 to h6 tags</h3>
+		<hr>
+
+
+		<!--head tag-->
+		<h3>head tag</h3>
+		<p>title, css style link can be placed </p>
+		<hr>
+
+
+       <!--header tag-->
+	   <h3>header tag</h3>
+	   <p>nav link or logo</p>
+	   <hr>
+
+
+	   <!--hr tag-->
+	   <h3>hr tag</h3>
+	   <p>horizontal line to identify the sepration of content</p>
+	   <hr>
+
+
+	   <!--html tag-->
+	   <h3>html tag</h3>
+	   <p>root of webpage doesn't include doctype</p>
+	   <hr>
+
+
+	   <!--i tag-->
+	   <h3>i tag</h3>
+	   <p>italic font</p>
+	   <p>This is <i>italic</i></p>  
+	   <hr>
+
+
+	   <!--img tag-->
+	   <h3>img tag</h3>
+	   <p>used to insert image</p>
+	   <img src="D:\fabevy\practice\fabevy-practice\workspace.jpg" alt="Trulli" style="width:50%">
+       <hr>
+
+	   <!--ins tag-->
+       <h3>ins tag</h3>
+	   <p>used to insert text</p>
+	   <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+	   <hr>
+
+
+	   <!--kbd tag-->
+	   <h3>kbd tag</h3>
+	   <p>like keyboard short key</p>
+	   <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>
+        <hr>
+
+
+		<!--li tag-->
+        <h3>li tag</h3>
+		<p>ul and ol tag to list the item</p>
+		<ul>
+			<li></li>
+		</ul>
+		<ol>
+			<li></li>
+		</ol>
+		<hr>
+
+		<!--link tag-->
+		<h3>link tag </h3>
+		<p>used to link css within head tag</p>
+		<link rel="stylesheet" href="styles.css">
+		<hr>
+
+
+		<!--main tag-->
+        <h3>main tag</h3>
+		<p>specify main content</p>
+		<hr>
+
+		<!--map tag-->
+		<h3>map tag</h3>
+		<img src="https://cdn.pixabay.com/photo/2022/09/06/14/40/beach-7436793_960_720.jpg" width="500" height="300" alt="beachview" usemap="#sunset">
+		
+		<map name="sunset">
+			<area shape="rect" coords="0,0,58,125" href="https://bootstrapmade.com/bootstrap-portfolio-templates/" target="_blank" alt="">
+			<area shape="circle" coords="250,250,10" href="https://bootstrapmade.com/bootstrap-portfolio-templates/" alt="">
+			<area shape="rect" coords="0,100,50,150" href="https://bootstrapmade.com/bootstrap-portfolio-templates/" alt="">
+		</map>
+		<hr>
+
+
+		<!--mark tag-->
+		<h3>mark tag</h3>
+		<p>Do not forget to <mark>push work</mark> today.</p>
+		<hr>
+
+
+		<!--meta tag-->
+		<h3>meta tag</h3>
+		<p>used to give more information about data <strong>see head tag</strong></p>
+		<hr>
+
+
+		<!--meter tag-->
+		<h3>meter tag</h3>
+		<p>disk space meter gauge</p>
+		<label for="disk_c">Disk usage C:</label>
+        <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter>
+          <hr>
+
+		<!--nav tag-->
+		<h3>nav tag</h3>
+		<p>navigation link</p>
+		<nav>
+			<a href="/html/">HTML</a>
+			<a href="/css/">CSS</a>
+			<a href="/js/">JavaScript</a>
+			<a href="/python/">Python</a>
+		  </nav>
+		 <hr>
+		 
+		 <!--no script tag-->
+		 <h3>no script tag</h3>
+		 <p>alt content will displayed when script is off</p>
+		 <noscript>Your browser does not support JavaScript!</noscript>
+		 <hr>
+
+		 <!--ol tag-->
+		 <h3>ol tag</h3>
+		 <p>when using start attribute it starts from giver number</p>
+		 <ol>
+			<li>Coffee</li>
+			<li>Tea</li>
+			<li>Milk</li>
+		  </ol>
+		  
+		  <ol type="I">
+			<li>Coffee</li>
+			<li>Tea</li>
+			<li>Milk</li>
+		  </ol>
+          <hr>
+		 
+		  
+		  <!--optgroup ,option  tag-->
+		  <h3>optgroup ,option tag</h3>
+		  <select  name="course" id="course">
+			<optgroup label="course">
+			  <option value="css">css</option>
+			  <option value="js">js</option>
+			</optgroup>
+		  </select>
+           <hr>
+
+
+		 <!--output tag-->
+		 <h3>output tag</h3>
+		 <p>used to calculate the output used by js</p>
+		 
+		 
+
+		 <!--p tag-->
+		 <h3>p tag</h3>
+		 <p>this is p tag</p>
+         <hr>
+         
+
+
+		 <!--param tag-->
+		 <h3>param tag</h3>
+		 <p>when page load or reload audio play automatically</p>
+		<object data="velai.mp3">
+			<param name="autoplay" value="true">
+		</object>
+        <hr>
+
+
+		<!--picture tag-->
+		<h3>picture tag</h3>
+		<p>used in resposive</p>
+		<picture>
+			<source media="(min-width:650px)" srcset="img_pink_flowers.jpg">
+			<source media="(min-width:465px)" srcset="image/portfolio-details-2">
+			<img src="image/portfolio-details-1.jpg" alt="Flowers" style="width:auto;">
+		  </picture>
+		  
+<!--		  
+<article>
+<aside>
+<details>
+<figcaption>
+<figure>
+<footer>
+<header>
+<main>
+<mark>
+<section>
+<summary>
+<time>-->
+<form action="/action_page.php">
+			
+			<fieldset>
+				
+			  <legend>Personalia:</legend>
+			  <label for="fname">First name:</label>
+			  <input type="text" id="fname" name="fname"><br><br>
+			  <label for="lname">Last name:</label>
+			  <input type="text" id="lname" name="lname"><br><br>
+			  <label for="email">Email:</label>
+			  <input type="email" id="email" name="email"><br><br>
+			  <label for="birthday">Birthday:</label>
+			  <input type="date" id="birthday" name="birthday"><br><br>
+			  <input type="submit" value="Submit">
+			</fieldset>
+		  </form>
+		 
+	<table>
+	<caption>HTML Table Example</caption>
+	  <tr>
+	    <th colspan="2">sutent name</th>
+		<th colspan="3">labs</th>
+		<th rowspan="2">AVG</th>
+	  </tr>
+	  <tr>
+	    <th>First</th>
+		<th>Last</th>
+		<th>Lab1</th>
+		<th>Lab2</th>
+		<th>Lab3</th>
+	  </tr>
+	  <tr>
+	    <td>Sol</td>
+		<td>Rosenberg</td>
+		<td>100</td>
+		<td>100</td>
+		<td>100</td>
+		<td>100.0</td>
+	  </tr>
+	  <tr>
+	    <td>Frank</td>
+		<td>Rizzo</td>
+		<td>50</td>
+		<td>60</td>
+		<td>90</td>
+		<td>66.6</td>
+	  </tr>
+	  <tr>
+	    <td>Ali</td>
+		<td>Kam</td>
+		<td>90</td>
+		<td>80</td>
+		<td>90</td>
+		<td>76.6</td>
+	  </tr>
+	  <tr>
+	    <td rowspan="2">summary</td>
+		<th>Avg</th>
+		<td>80.0</td>
+		<td>80.0</td>
+		<td>83.3</td>
+		<td>81.1</td>
+	  </tr>
+	  <tr>
+		<th>min</th>
+		<td>50</td>
+		<td>60</td>
+		<td>60</td>
+		<td>66.6</td>
+	  </tr>
+    </table>	
 </body>
 </html>
