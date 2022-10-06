@@ -1,0 +1,174 @@
+/*font properties*/
+body{
+	background-color:#F9EBEA;
+	}
+.head1{
+	color:white;
+	font-family:Bahnschrift Light;
+	background-color:#2A2427;
+	padding:5px;
+	text-align:center;
+	}
+.div{
+	font-family:Calibri;
+	}
+.head2{
+	color:#14116D;
+	font-family:Castellar;
+	background-color:#EAEC9D;
+	}
+.prop{
+	color:red;
+	font-family:Mistral;
+	font-size:25px;
+	background-color:#ECEEBA;
+	}
+.head3{
+	color:red;
+	font-family:Segoe Script;
+    background-color:#ECEEBA;
+	}
+.name{
+	font-family: Algerian;
+	}
+.style{
+	font-style:italic;
+	}
+.varient{
+	font-variant:small-caps;
+	}
+.weight{
+	font-weight:bold;
+	}
+.low{
+	text-transform: lowercase;
+}
+.size{
+	font-size:20px;
+	}
+.color{
+	color:red;
+	}
+.fontall{
+	font: italic 12pt arial;
+	}
+	
+/*Text properties*/
+.ls{
+	letter-spacing:5pt;
+	}
+.tdu{
+	text-decoration:underline;
+	}
+.tdo{
+	text-decoration:overline;
+	}
+.tdl{
+	text-decoration:line-through;
+	}
+.vas{
+	font-size:20px;
+	vertical-align: middle;
+	}
+.vasu{
+	font-size:25px;
+	vertical-align:super;
+	}
+.texttop{
+	font-size:15pt;
+	vertical-align:text-top;
+	}
+.textbottom{
+	color:red;
+	vertical-align:text-bottom;
+	font-size:25px;
+	}
+.cap{
+	text-transform:capitalize;
+	font-size:20px;
+	}
+.up{
+	text-transform:uppercase;
+	font-size:20px;
+	color:green
+	}
+.left{
+	text-align:left;
+	color:blue;
+	font-size:20px
+	}
+.right{
+	text-align:right;
+	color:blue;
+	font-size:20px
+	}
+.center{
+	text-align:center;
+	color:blue;
+	font-size:20px
+	}
+.justify{
+	text-align:justify;
+	color:blue;
+	font-size:20px
+	}
+.indent{
+	text-indent:30px;
+	}
+.percentage{
+	text-indent:20%;
+	}
+.line{
+	line-height:20pt;
+	}
+.disk{
+	list-style-type:disk;
+	}
+.circle{
+	list-style-type:circle;
+}
+.square{
+	list-style-type:square;
+}
+.decimal{
+	list-style-type:decimal;
+}
+.lower-roman{
+	list-style-type:lower-roman;
+}
+.upper-roman{
+	list-style-type:upper-roman;
+}
+.lower-alpha{
+	list-style-type:lower-alpha;
+}
+.upper-alpha{
+	list-style-type:upper-alpha;
+}
+.none{
+	list-style-type:none;
+}
+.image{
+	list-style-image:url
+}
+.image1{
+	list-style-image:url(sqpurple.gif);
+}
+
+.color .rgb{
+	font-weight: bold;
+	color: rgb(0,255,0);
+}
+.color .rgba{
+	color: rgba(255, 99, 71, 0.5);
+}
+.color .hex{
+	color: #00ff00;
+}
+
+.color .hsl{
+	color: hsl(147, 100%, 50%);
+}
+.color .hsla{
+	color: hsla(9, 100%, 64%, 0.8);
+}
