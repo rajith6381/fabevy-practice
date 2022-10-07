@@ -226,6 +226,19 @@ header{
 .back3cont2{
 	width:100%;
 	height:45vh;
-	background:red;
 	margin-top:40px;
+	display:flex;
+	justify-content:space-between;
+}
+.lorem{
+	width:32%;
+	height:45vh;
+	background:green;
+	background:#343a40;
+}
+.lorem h2{
+	font-family: "Poppins", sans-serif; 
+	padding:35px 0px 0px 25px;
+	font-weight:600;
+	font-size:25px;
 }
