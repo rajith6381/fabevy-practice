@@ -263,7 +263,7 @@ table p{
 }
 @media(min-width:1024px){
 .skill h1{
-	margin:15px 5px 5px;
+	margin:30px 5px 5px;
     font-size: 1.5rem;
     font-family: 'Roboto', sans-serif;
 	font-weight:800;
@@ -342,6 +342,7 @@ table p{
 	font-family: 'Roboto', sans-serif;
 	font-size:1.3rem;
 	font-weight:600;
+	padding-top: 5px;
 }
 }
 @media(min-width:1024px){
@@ -369,5 +370,468 @@ table p{
 	font-family: 'Roboto', sans-serif;
 	font-size:1.3rem;
 	font-weight:600;
+	padding-top: 5px;
+	
+}
+}
+.project{
+	margin-top:10%;
+}
+.project h1{
+	margin-left:5px;
+	font-size:1.3rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+	
+}
+.project table{
+	width:100%;
+}
+.project table td{
+	padding:10px;
+}
+.project table h2{
+	font-size:1rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+}
+.project h4{
+	font-size:0.6rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+}
+.project a{
+	color: #33D1FF;
+}
+.project table h3{
+	
+	font-size:0.9rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+}
+.project table p{
+	text-indent:10px;
+	font-family: 'Roboto', sans-serif;
+	font-size:0.9rem;
+	font-weight:500;
+}	
+
+@media(min-width:768px){
+.project{
+	margin-top:8%;
+}
+.project h1{
+	margin-left:5px;
+	font-size:1.5rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+	
+}
+.project table{
+	width:100%;
+}
+.project table td{
+	padding:15px;
+}
+.project table h2{
+	font-size:1.3rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+}
+.project h4{
+	margin-left:5px;
+	font-size:0.9rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+	padding-top:5px;
+}
+.project a{
+	color: #33D1FF;
+}
+.project table h3{
+	padding-top:5px;
+	margin-left:5px;
+	font-size:1.1rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+}
+.project table p{
+	padding-top:3px;
+	text-indent:15px;
+	font-family: 'Roboto', sans-serif;
+	font-size:1.1rem;
+	font-weight:600;
+}	
+}
+@media(min-width:1024px){
+.project{
+	margin-top:8%;
+}
+.project h1{
+	margin-left:5px;
+	font-size:1.7rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+	
+}
+.project table{
+	width:100%;
+}
+.project table td{
+	padding:15px;
+}
+.project table h2{
+	font-size:1.3rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+}
+.project h4{
+	margin-left:5px;
+	font-size:0.9rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+	padding-top:5px;
+}
+.project a{
+	color: #33D1FF;
+}
+.project table h3{
+	padding-top:5px;
+	margin-left:5px;
+	font-size:1.1rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+}
+.project table p{
+	padding-top:3px;
+	text-indent:15px;
+	font-family: 'Roboto', sans-serif;
+	font-size:1.1rem;
+	font-weight:600;
+}	
+}
+.busness{
+	margin-top:10%;
+}
+.busness h1{
+	margin-left:5px;
+	font-size:1.3rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+	
+}
+.busness table{
+	width:100%;
+}
+.busness table td{
+	padding:10px;
+}
+.busness table h2{
+	font-size:1rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+}
+.busness h4{
+	font-size:0.6rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+}
+.busness a{
+	color: #33D1FF;
+}
+.busness table h3{
+	
+	font-size:0.9rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+}
+.busness table p{
+	text-indent:10px;
+	font-family: 'Roboto', sans-serif;
+	font-size:0.9rem;
+	font-weight:500;
+}	
+
+@media(min-width:768px){
+.busness{
+	margin-top:8%;
+}
+.busness h1{
+	margin-left:5px;
+	font-size:1.5rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+	
+}
+.busness table{
+	width:100%;
+}
+.busness table td{
+	padding:15px;
+}
+.busness table h2{
+	font-size:1.3rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+}
+.busness h4{
+	margin-left:5px;
+	font-size:0.9rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+	padding-top:5px;
+}
+.busness a{
+	color: #33D1FF;
+}
+.busness table h3{
+	padding-top:5px;
+	margin-left:5px;
+	font-size:1.1rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+}
+.busness table p{
+	padding-top:3px;
+	text-indent:15px;
+	font-family: 'Roboto', sans-serif;
+	font-size:1.1rem;
+	font-weight:600;
+}	
+}
+@media(min-width:1024px){
+.busness{
+	margin-top:8%;
+}
+.busness h1{
+	margin-left:5px;
+	font-size:1.7rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+	
+}
+.busness table{
+	width:100%;
+}
+.busness table td{
+	padding:15px;
+}
+.busness table h2{
+	font-size:1.3rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+}
+.busness h4{
+	margin-left:5px;
+	font-size:0.9rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+	padding-top:5px;
+}
+.busness a{
+	color: #33D1FF;
+}
+.busness table h3{
+	padding-top:5px;
+	margin-left:5px;
+	font-size:1.1rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+}
+.busness table p{
+	padding-top:3px;
+	text-indent:15px;
+	font-family: 'Roboto', sans-serif;
+	font-size:1.1rem;
+	font-weight:600;
+}	
+}
+
+.tution{
+	margin-top:10%;
+}
+.tution h1{
+	margin-left:5px;
+	font-size:1.3rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+	
+}
+.tution table{
+	width:100%;
+}
+.tution table td{
+	padding:10px;
+}
+.tution table h2{
+	font-size:1rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+}
+.tution h4{
+	font-size:0.6rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+}
+.tution a{
+	color: #33D1FF;
+}
+.tution table h3{
+	
+	font-size:0.9rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+}
+.tution table p{
+	text-indent:10px;
+	font-family: 'Roboto', sans-serif;
+	font-size:0.9rem;
+	font-weight:500;
+}	
+
+@media(min-width:768px){
+.tution{
+	margin-top:8%;
+}
+.tution h1{
+	margin-left:5px;
+	font-size:1.5rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+	
+}
+.tution table{
+	width:100%;
+}
+.tution table td{
+	padding:15px;
+}
+.tution table h2{
+	font-size:1.3rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+}
+.tution h4{
+	margin-left:5px;
+	font-size:0.9rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+	padding-top:5px;
+}
+.tution a{
+	color: #33D1FF;
+}
+.tution table h3{
+	padding-top:5px;
+	margin-left:5px;
+	font-size:1.1rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+}
+.tution table p{
+	padding-top:3px;
+	text-indent:15px;
+	font-family: 'Roboto', sans-serif;
+	font-size:1.1rem;
+	font-weight:600;
+}	
+}
+@media(min-width:1024px){
+.tution{
+	margin-top:8%;
+}
+.tution h1{
+	margin-left:5px;
+	font-size:1.7rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+	
+}
+.tution table{
+	width:100%;
+}
+.tution table td{
+	padding:15px;
+}
+.tution table h2{
+	font-size:1.3rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+}
+.tution h4{
+	margin-left:5px;
+	font-size:0.9rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+	padding-top:5px;
+}
+.tution a{
+	color: #33D1FF;
+}
+.tution table h3{
+	padding-top:5px;
+	margin-left:5px;
+	font-size:1.1rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+}
+.tution table p{
+	padding-top:3px;
+	text-indent:15px;
+	font-family: 'Roboto', sans-serif;
+	font-size:1.1rem;
+	font-weight:600;
+}	
+}
+footer h1{
+	margin-left:5px;
+	padding-top:25px;
+	padding-bottom:10px;
+	font-size:1.1rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+	
+}
+footer p{
+	margin-left:5px;
+	font-family: 'Roboto', sans-serif;
+	font-size:0.7rem;
+	font-weight:600;
+	padding-bottom:10px;
+}
+@media(min-width:768px){
+footer h1{
+	margin-left:5px;
+	padding-top:30px;
+	padding-bottom:15px;
+	font-size:1.4rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+	
+}
+footer p{
+	margin-left:5px;
+	font-family: 'Roboto', sans-serif;
+	font-size:1.1rem;
+	font-weight:600;
+	padding-bottom:15px;
+}
+}
+@media(min-width:1024px){
+footer h1{
+	margin-left:5px;
+	padding-top:35px;
+	padding-bottom:15px;
+	font-size:1.5rem;
+	font-weight:600;
+	font-family: 'Roboto', sans-serif;
+	
+}
+footer p{
+	margin-left:5px;
+	font-family: 'Roboto', sans-serif;
+	font-size:1.2rem;
+	font-weight:600;
+	padding-bottom:15px;
 }
 }
