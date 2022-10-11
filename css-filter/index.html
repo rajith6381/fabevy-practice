@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+	  .apple{
+	    width:50%;
+		margin:auto;
+		height:60vh;
+		border:1px solid black;
+		box-shadow:0 0 5px 5px gray;
+		margin-bottom:40px;
+	  }
+	  .apple img{
+	   width:100%;
+	   height:60vh;
+	  }
+	  .fruits{
+	    width:60%;
+		margin:auto;
+		height:40vh;
+		border:1px solid black;
+		box-shadow:0 0 5px 5px gray;
+		margin-bottom:40px;
+	  }
+	  .fruits img{
+	   width:100%;
+	   height:40vh;
+	  }
+	   .pienapple{
+	    width:60%;
+		margin:auto;
+		height:50vh;
+		border:1px solid black;
+		box-shadow:0 0 5px 5px gray;
+		margin-bottom:40px;
+	  }
+	  .pienapple img{
+	   width:100%;
+	   height:50vh
+	  }
+	  .h3{
+	    text-align:center;
+		color:blue;
+		font-size:2rem;
+		font-family:lucida-handwriting;
+	  }
+	  .b1{
+	    filter:grayscale(100%);
+	  }
+	  .b2{
+	    filter:blur(5px);
+	  }
+	  .b3{
+	   filter:brightness(50%);
+	  }
+	  .a1{
+	   filter:contrast(100%);
+	  }
+	  .a2{
+	    filter: drop-shadow(8px 8px 10px red);
+	  }
+	  .a3{
+	   filter:hue-rotate(300deg);
+	  }
+	  .c1{
+	  filter: invert(100%);
+	  }
+	  .c2{
+	  filter: opacity(0.1);
+	  }
+	  .c3{
+	    filter: saturate(8);
+	  }
+	  .c4{
+	   filter: sepia(100%);
+	  }
+
+    </style> 
+</head>
+<body>
+
+    <h3 class="h3">grayscale white and black make gray</h3>
+  <div class="apple b1">
+    <img src="images/rose.jfif" alt="rose">
+  </div>
+  <h3 class="h3">blur the image, default=0px</h3>
+  <div class="fruits b2">
+    <img src="images/rose.jfif" alt="rose">
+  </div>
+   <h3 class="h3">brightness 0 to 100% default=100 give the whitness</h3>
+  <div class="pienapple b3">
+    <img src="images/rose.jfif" alt="rose">
+  </div>
+
+
+  <h3 class="h3">contrast  default=100 give the colorness</h3>
+   <div class="apple a1">
+    <img src="images/rose.jfif" alt="rose">
+  </div>
+  <h3 class="h3">drop-shadow= This filter is similar to the box-shadow property.text shadow spread not</h3>
+  <div class="fruits a2">
+    <img src="images/rose.jfif" alt="rose">
+  </div>
+  <h3 class="h3">hue-rotate(deg) 0 to 360,0 is default</h3>
+  <div class="pienapple a3">
+    <img src="images/rose.jfif" alt="rose">
+  </div>
+
+
+  <h3 class="h3">invert 0to 100 0is default</h3>
+   <div class="apple c1">
+     <img src="images/rose.jfif" alt="rose">
+  </div>
+  <h3 class="h3">opacity 0 to 1 , 1 is default</h3>
+  <div class="fruits c2">
+    <img src="images/rose.jfif" alt="rose">
+  </div>
+  <h3 class="h3">saturate 0 to 100 , 100 is default</h3>
+  <div class="pienapple c3">
+    <img src="images/rose.jfif" alt="rose">
+  </div>
+
+   <h3 class="h3">sepia 0 to 100, 0 is default</h3>
+   <div class="apple c4">
+    <img src="images/rose.jfif" alt="rose">
+  </div>
+</body>
+</html>
