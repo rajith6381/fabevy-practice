@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>display,flex,flex-box</title>
+<style>
+.a {
+  display: block;
+  border: 1px solid red;
+  background-color: lightgrey;
+  padding: 10px;
+  width: auto;
+}
+.b {
+  border: 1px solid blue;
+  background-color: lightblue;
+  padding: 10px;
+}
+span{
+  display: none ;
+  padding: 2rem;
+  margin: rem;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  background: orange;
+}
+.a p{
+  display: inline;
+}
+
+
+#grow {
+  width: 500px;
+  height: 200px;
+  border: 1px solid #c3c3c3;
+  display: flex;
+  text-align: center;
+  font-size: 2rem;
+	}
+#grow div:nth-of-type(1){
+	flex-grow: 1;
+	background-color:coral;
+	}
+#grow div:nth-of-type(2){
+	flex-grow: 2;
+	background-color:lightblue;
+	}
+#grow div:nth-of-type(3){
+	flex-grow: 1;
+	background-color:khaki;
+	}
+#grow div:nth-of-type(4){
+	flex-grow: 3;
+	background-color:pink;
+	}
+#grow div:nth-of-type(5){
+	flex-grow: 1;
+	background-color:lightgrey;
+	}
+
+
+#shrink {
+  width: 350px;
+  height: 100px;
+  border: 1px solid #c3c3c3;
+  display: flex;
+}
+
+#shrink div {
+  flex-grow:1 ;
+  flex-shrink:1;
+  flex-basis: 100px;
+}
+
+#shrink div:nth-of-type(1) {
+  flex-shrink: 2;
+}
+#shrink div:nth-of-type(2) {
+  flex-basis: 200px;
+}
+
+	/*--flex-direction: column|row|column-reverse|row-reverse--*/
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+
+</style>
+</head>
+<body>
+	<h1>The display Property</h1>	
+	<!--display properties
+		*display: none;
+		*display: inline;
+		*display: block;none
+		*display: inline-block;
+	-->
+	<div class="a">
+		<h2>Lorem ipsum <p>Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>dolor sit amet,<span>consectetur adipiscing elit.</span>  Etiam semper diam at<span>erat pulvinar, at pulvinar</span>  felis blandit.</h2> 
+		<div class="b">HELLO WORLD!</div> 
+
+	</div>
+
+
+	<h1>The Flex-grow Property</h1>	
+	<!--Flex Properties
+		*flex-grow
+		*flex-shrink
+		*flex-basis-->
+
+	<div id="grow">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+		<div>5</div>
+	</div>
+
+	<h1>The flex-shrink and flex-basis Property</h1>
+
+<div id="shrink">
+  <div style="background-color:red;">shrink</div>
+  <div style="background-color:white;">flex basis</div>
+  <div style="background-color:blue;">shrink</div>
+  <div style="background-color:yellow;">shrink</div>
+  <div style="background-color:tomato;">shrink</div>
+</div>
+
+
+<h1>Flex box</h1>
+	<!--flex-direction
+		flex-wrap
+		flex-flow
+		justify-content
+		align-items
+		align-content
+	
+	-->
+
+	<div class="flex-container">
+		<div>1</div>
+	    <div>2</div>
+		<div>3</div>  
+	</div>
+
+
+</body>
+</html>
