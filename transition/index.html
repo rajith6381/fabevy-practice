@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+	  #div1{
+	  width: 100px;
+	  height: 100px;
+	  background:aqua;
+	  transition: background-color 2s linear;
+	}
+
+	#div1:hover {
+	  background-color:gray;
+	}
+	#div2{
+	  width: 100px;
+	  height: 100px;
+	  background:maroon;
+	  color:#fff;
+	  transition: width 2s ease;
+	}
+	#div2:hover{
+	 width:200px;
+	}
+	#div3{
+	  width: 100px;
+	  height: 100px;
+	  background:purple;
+	  transition: height 2s ease-in;
+	}
+	#div3:hover{
+	 height:200px;
+	}
+	#div4{
+	  width: 100px;
+	  height: 100px;
+	  background:aqua;
+	  transition: all 2s ease-out;
+	}
+	#div4:hover{
+	 margin:3rem;
+	 background-color:navy;
+	}
+
+
+    #div5{
+	  width: 100px;
+	  height: 100px;
+	  background:aqua;
+	  transition: all 2s ease-in-out;
+	}
+	#div5:hover{
+	  transform: rotate(360deg);
+	}
+
+	 #div6{
+	  width: 100px;
+	  height: 100px;
+	  background:aqua;
+	  transition: all 2s ;
+	 }
+	   #div6:hover{
+	  transform:translate(100px,200px);
+	 }
+
+	 #div7{
+	  width: 100px;
+	  height: 100px;
+	  background:aqua;
+	  transition: all 2s ease-in-out;
+	 }
+	 	 #div7:hover{
+	  transform:matrix(2,0,0,2,0,0);
+	 }
+
+	 #div8{
+	  width: 100px;
+	  height: 100px;
+	  background:aqua;
+	  transition: all 2s;
+	}
+		 #div8:hover{
+	  transform:scale(1,2);
+	 }
+	 #div9{
+	  width: 100px;
+	  height: 100px;
+	  background:aqua;
+	  transition: all 2s ;
+	 }
+	 	 #div9:hover{
+	  transform:skew(20deg,20deg);
+	 }
+
+
+
+
+
+
+</style>
+<body>
+	 <h1>The transition-timing-function Property</h1>
+	 <p>transition: [transition-property] [transition-duration] [transition-timing-function] [transition-delay];</p>
+	 <p>: If you don't specify the duration part, the transition will have no effect because its default value is 0. The transition effect is started when you move cursor over an element.</p>
+    <p>Transition effect start from element top-left corner</p>
+	<p>Hover over the div elements below, to see the different speed curves:</p>
+	<p>Matrix have syntax(rotate, skew, scale, and translate)
+	 Transform:matrix(a,b,c,d,e,f) where{a,d are scale,}{b,c are skew}{e,f are translate}</p>
+
+	<div id="div1">linear</div><br>
+	<div id="div2">ease</div><br>
+	<div id="div3">ease-in</div><br>
+	<div id="div4">ease-out</div><br>
+	<div id="div5">Rotate(360deg)</div><br>
+	<div id="div6">translate(x,y)</div><br>
+	<div id="div7">matrix()</div><br>
+	<div id="div8">scale()</div><br>
+	<div id="div9">skewy()</div><br>
+</body>
+</html>
