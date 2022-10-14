@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Css units</title>
+	<style>
+	  .b{
+	   font-size:0.5cm;
+	  }
+	  .c{
+	  font-size:10mm;
+	  }
+	   .d{
+	  font-size:0.5in;
+	  }
+	   .e{
+	  font-size:20px;
+	  }
+	   .f{
+	  font-size:10pt;
+	  }
+	   .g{
+	  font-size:1pc;
+	  }
+	   .h{
+	  font-size:2em;
+	  }
+	   .i{
+	  font-size:2ex;
+	  }
+	   .j{
+	  font-size:3ch;
+	  }
+	   .k{
+	  font-size:2rem;
+	  }
+	   .l{
+	  font-size:2vw;
+	  }
+	   .m{
+	  font-size:2vh;
+	  }
+	   .n{
+	  font-size:2vmin;
+	  }
+	   .o{
+	  font-size:2max;
+	  }
+	   .p{
+	  font-size:2%;
+	  }
+	  .d-flex{
+	   display:flex;
+	  }
+	  .div1{
+	   width:55%;
+	   border-right:1px solid red;
+	  }
+	  .div2{
+	  width:45%;
+	  padding-left:2rem;
+	  }
+	  .a{
+	   text-align:center;
+	   color:darkblue;
+	  }
+	</style>
+</head>
+<body>
+   <h3 class="a">CSS has several different units for expressing a length.</h3>
+   <p class="a">There are two types of length units: absolute and relative.</p>
+  <div class=d-flex>
+
+   <div class="div1"><h2 style="color:aqua" >ABSOLUTE-6</h2>
+	<h1 class="b">-0.5cm centimeter</h1>
+	<h2 class="c">-10mm milimeter</h2>
+	<p class="d">0.5inches(in) "1in = 96px = 2.54cm"</p>
+	<p class="e">-20px(pixels)1px = 1/96th of 1 inch</p>
+	<h1 class="f">-5ponit(pt) 1pt = 1/72 of 1 in  "1-inch=72point"</h1>
+	<h2 class="g">-1picas(pc) 1pc = 12 pt</h2>
+	</div>
+
+	<div class="div2"><h2 style="color:aqua" >RELATIVE-9</h2>
+	<p class="h">em-Relative to the font-size of the element 2em means 2 times the size of the current font</p>
+	<p class="i">-ex-Relative to the x-height of the current font.</p>
+	<p class="j">-ch-Relative to the width of the "0" </p>
+	<p class="k">-rem-Relative to font-size of the root element.</p>
+	<p class="l">-vw-Relative to 1% of the width of the viewport</p>
+	<p class="m">-vh-Relative to 1% of the height of the viewport.</p>
+	<p class="n">-vmin	Relative to 1% of viewport's smaller dimension</p>
+	<p class="o">-vmax-	Relative to 1% of viewport's larger dimension</p>
+	<p class="p">-%-Relative to the parent element</p>
+	</div>
+  </div>
+</body>
+</html>
