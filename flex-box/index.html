@@ -25,7 +25,7 @@ span{
   background: orange;
 }
 .a p{
-  display: inline;
+  display:block;
 }
 
 
@@ -38,11 +38,11 @@ span{
   font-size: 2rem;
 	}
 #grow div:nth-of-type(1){
-	flex-grow: 1;
+	flex-grow: 2;
 	background-color:coral;
 	}
 #grow div:nth-of-type(2){
-	flex-grow: 2;
+	flex-grow: 1;
 	background-color:lightblue;
 	}
 #grow div:nth-of-type(3){
@@ -60,30 +60,31 @@ span{
 
 
 #shrink {
-  width: 350px;
+  width:600px;
   height: 100px;
   border: 1px solid #c3c3c3;
   display: flex;
 }
 
 #shrink div {
-  flex-grow:1 ;
-  flex-shrink:1;
-  flex-basis: 100px;
+  flex-basis:250px;
 }
 
 #shrink div:nth-of-type(1) {
-  flex-shrink: 2;
+  flex-shrink:;
+}
+#shrink div:nth-of-type(4) {
+  flex-shrink:20;
 }
 #shrink div:nth-of-type(2) {
-  flex-basis: 200px;
+  flex-basis:;
 }
 
 	/*--flex-direction: column|row|column-reverse|row-reverse--*/
 
 .flex-container {
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
   background-color: DodgerBlue;
 }
 
