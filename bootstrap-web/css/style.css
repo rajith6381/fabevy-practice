@@ -1,0 +1,72 @@
+.banercont{
+	padding-top:5rem;
+	padding-bottom:5rem;
+	
+}
+.baner{
+	background:#fef8f5;
+	border-bottom: 2px solid #fcebe3;
+}
+
+
+@media(min-width:768px){
+.leftcont h5{
+	font-size:2rem;
+}	
+}
+@media(min-width:1024px){
+.leftcont h5{
+	font-size:3rem;
+}	
+}
+.abouti i{
+	font-size:2.8rem;
+	color: #f39e7a;
+}
+.abouti h4{
+	color: #7a6960;
+	margin-top:5px;
+}
+.receipt h4{
+	color: #7a6960;
+	margin-top:5px;
+}
+.iconi{
+	font-size:2.8rem;
+	color: #f39e7a;
+}
+/*cord*/
+.cord{
+	background:#fef8f5;
+}
+.cord1:hover{
+	border-bottom:2px solid #eb5d1e;
+	
+}
+.drib{
+	font-size:2rem;
+	color:#eb5d1e;
+}
+/*portfolio*/
+.scrol{
+	text-align:center;
+	display:flex;
+	justify-content:center;
+	padding:5px 8px;
+	margin-bottom:1rem;
+}
+.scrol p{
+	margin-right:5px;
+	padding:5px 8px;
+	border-radius:8px;
+}
+.scrol p:hover{
+	color:#eb5d1e;
+	transition:ease-in-out 0.5s;
+	cursor:pointer;
+}
+#one{
+	    		 
+    color:#eb5d1e;
+	
+}
