@@ -70,3 +70,23 @@
     color:#eb5d1e;
 	
 }
+/*cummary*/
+.faq{
+	background:#fef8f5;
+}
+summary{
+	font-size:1.3rem;
+	font-weight:600;
+}
+summary:hover{
+	color:#eb5d1e;
+}
+/*clind*/
+.clind{
+	background:#fef8f5;
+}
+/*form*/
+.locat{
+	background-color: #eb5d1e;
+	vertical-align:center;
+}
