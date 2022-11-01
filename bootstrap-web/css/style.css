@@ -56,7 +56,7 @@ position: relative;
 	left:10px;
 	bottom:0;
 	padding:1rem;
-	background-color:rgb(14, 13, 13, 0.6);
+	background-image: linear-gradient(to right,rgb(14, 13, 13, 0.6),rgba(223, 214, 214, 0.6));
 	color:white;
 }
 .side-i li{
@@ -67,8 +67,7 @@ position: relative;
 	right: 11px;
 	left:10px;
 	bottom:0;
-	padding:rem;
-	background-color: rgb(14, 13, 13, 0.6);
+	background-image: linear-gradient(rgba(223, 214, 214, 0.6),rgb(14, 13, 13, 0.6));
 	text-align: center;
 	color:white;
 }
@@ -216,4 +215,7 @@ footer{
 .port-img:hover .por-icon{
  opacity: 1;
  transition: 0.2s;
+}
+.last{
+	background-color: #fdf1ec;
 }
