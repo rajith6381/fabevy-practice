@@ -1,0 +1,30 @@
+.char{
+	border:2px solid blue;
+	margin:2rem 0;
+}
+.keyframe{
+	border:2px solid aqua;
+
+}
+.img{
+	animation: moveit 1s 3;
+	position:relative;
+}
+@keyframes moveit{
+
+	 from {left:0;}
+     to {left:50%;}
+}
+@font-face {
+    font-family: "OpenSans";
+    src: url("/examples/fonts/OpenSans-Regular.eot");
+    src: url("/examples/fonts/OpenSans-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+.fontface{
+    font-family: "OpenSans", Arial, sans-serif;
+    font-size: 1.2em;
+    border:2px solid yellow;
+    margin:2rem 0;
+}
