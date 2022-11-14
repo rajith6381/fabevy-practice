@@ -1,0 +1,30 @@
+.navi{
+    background-image: linear-gradient(rgb(83, 77, 77),white);
+}
+.navi a{
+    cursor: pointer;
+}
+.bcont h1{
+    padding-top: 5rem;
+    font-size: 4rem;
+    font-family: 'Rubik', sans-serif;
+}
+.bcont h4{
+    font-size: 1.8rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+}
+.logo a{
+    font-size: 1.9rem;
+    
+}
+.bimg{
+    padding: 2rem;
+}
+
+.bimg img{
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 30%;
+    
+    
+}
