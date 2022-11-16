@@ -9,6 +9,15 @@
     font-size: 4rem;
     font-family: 'Rubik', sans-serif;
 }
+.bcont{
+  animation-name: example;
+  animation-duration: 1s;
+}
+@keyframes example{
+    from{
+        transform:translateX(-500px);
+        }
+}
 .bcont h4{
     font-size: 1.8rem;
     font-family: 'Rubik', sans-serif;
@@ -18,13 +27,48 @@
     font-size: 1.9rem;
     
 }
-.bimg{
-    padding: 2rem;
-}
 
 .bimg img{
+    
+    background-image: radial-gradient(circle, black, #ccc,white);
     border-bottom-left-radius: 50%;
     border-top-right-radius: 30%;
-    
-    
+    animation-name: example2;
+    animation-duration: 1s;
+}
+
+
+@keyframes example2{
+    from{
+        transform:translateX(500px);
+        }
+}
+.aboutimg img{
+    border-radius: 50%;
+    box-shadow: -20px -20px #ccc;
+}
+.about-cont h4{
+    font-size: 1.8rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+}
+.about-cont p{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 200;
+}
+.icon1{
+    padding-right: 1rem;
+}
+.about-cont button:hover{
+    background-color: black;
+    color: white;
+}
+.skill{
+    background-color: rgb(239, 239, 239);
+}
+.web:hover{
+    box-shadow: 0 0 10px black;
+}
+.web:hover i{
+    color: rgb(138, 134, 134);
 }
