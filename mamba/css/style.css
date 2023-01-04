@@ -1425,13 +1425,14 @@ img{
 	padding-bottom:10px;
     text-align:center;
 	line-height:1.5;
+	margin-bottom: 1rem;
 }
 }
 /*team img*/
 .team1 img{
 	width:100%;
 	position:relative;
-	margin-top: 50px;
+	/* margin-top: 50px; */
 	
 }
 .imgdown{
@@ -1473,7 +1474,7 @@ img{
 	display:flex;
 	flex-wrap:wrap;
 	width:100%;
-	margin-top: 3rem;
+	/* margin-top: 3rem; */
 }
 .team1{
 	width:48.1%;
@@ -1523,15 +1524,16 @@ img{
 	display:flex;
 	flex-wrap:wrap;
 	width:100%;
-	padding-bottom:3rem;
+	/* padding-bottom:3rem; */
 }
 .team1{
 	width:23.80%;
 	margin-right:13px;
+	overflow: hidden;
 }
 .timg{
 	overflow:hidden;
-	transition:0.5s;
+	/* transition:0.5s; */
 }
 .timg:hover img{
 	transform:scale(1.3);

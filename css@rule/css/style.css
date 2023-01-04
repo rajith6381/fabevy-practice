@@ -1,3 +1,4 @@
+@import url(style2.css);
 .char{
 	border:2px solid blue;
 	margin:2rem 0;
@@ -7,13 +8,13 @@
 
 }
 .img{
-	animation: moveit 1s 3;
+	animation: moveit 1s 5;
 	position:relative;
 }
 @keyframes moveit{
 
 	 from {left:0;}
-     to {left:50%;}
+     to {left:100%;}
 }
 @font-face {
     font-family: "OpenSans";
@@ -27,4 +28,8 @@
     font-size: 1.2em;
     border:2px solid yellow;
     margin:2rem 0;
+}
+.importent{
+    background-color: red !important;
+    background-color: green;
 }

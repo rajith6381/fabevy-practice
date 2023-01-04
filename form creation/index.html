@@ -7,97 +7,99 @@
 	<title>Log In Form</title>
 	<link rel="stylesheet" href="css/style.css">
 
-	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">i
 	
 </head>
 <body>
 <main>
      <section class="backimg">
-         <form>
-		    <input type="name" class="user" placeholder="Your Name">
-			<input type="Email" class="user" placeholder="Your gmail">
-			<input type="Password" class="user" placeholder="Enter password">
-			
+         <form  id="myform">
+		    <input type="name" class="user" placeholder="Your Name" id="name1">
+			<p id="iname3"></p>
+			<input type="Email" class="user" placeholder="Your gmail" id="email1">
+			<p id="iname4"></p>
+			<input type="Password" class="user" placeholder="Enter password" id="psd"><i class="bi bi-eye" id="view"></i>
+			<p id="iname5"></p>
+			<button type="submit">Log In</button>
 		 </form>
-       <button type="submit">Log In</button>
+       
          
      </section>
 </main>
-<section class="layout">
-   <div class="box">
-      <div class="box1">
-	     
-	  </div>
-	  <div class="box1">
-	     
-	  </div>
-	  <div class="box1">
-	     
-	  </div>
-	  <div class="box1">
-	     
-	  </div>
-	  <div class="box1">
-	     
-	  </div>
-	  <div class="box1">
-	     
-	  </div>
-   </div>
-</section>
-<section class="create">
-  <table>
-  <caption><b>STUDENTS MARKSHEET</b></caption>
-    <tr>
-	  <th>NAME</th>
-	  <th>MATHS</th>
-	  <th>SCIENCE</th>
-	  <th>ENGLISH</th>
-	  <th>PHYSICS</th>
-	  <th>GENERAL KNOWLEDGE</th>
-	</tr>
-	<tr>
-	<td color="red">DAVID</td>
-	<td>85</td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>RICHARD</td>
-	<td>63</td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>JOHIN</td>
-	<td>45</td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>TONY</td>
-	<td>56</td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	</tr>
-	<tr>
-	<td>SCOTT</td>
-	<td>70</td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	</tr>
+<script>
+	    var form= document.getElementById("myform");
+        var name1=document.getElementById("name1");
+		var email2=document.getElementById("email1");
+		var pwd=document.getElementById("psd");
+		var eye=document.getElementById("view")
+
+       var sum;
+		eye.addEventListener("click",function(){
+         
+		 if(sum ==0){
+			pwd.setAttribute("type","text")
+			return sum=1
+		 }else{
+			pwd.setAttribute("type","password")
+
+			return sum=0
+		 }
+		});
+
+    form.addEventListener('submit',function(e){
+
+		e.preventDefault();
+		
+	  	Myfun()
+	  	
+        
+	});
+     
+   function Myfun(){
+
+	 var setname=name1.value.trim();
+	 var setemail=email2.value.trim();
+	 var setpassword=pwd.value.trim();
+
+       if(setname===""){
+          document.getElementById("iname3").innerHTML="Enter Your Name"
+		  name1.style.borderBottomColor="red";
+	   }else{
+		document.getElementById("iname3").innerHTML=""
+		name1.style.borderBottomColor="#2ECC71 ";
+	   }
+
+	   if(setemail==""){
+		document.getElementById("iname4").innerHTML="Enter Your Email"
+		email2.style.borderBottomColor="red";
+	   }else{
+		document.getElementById("iname4").innerHTML=""
+		email2.style.borderBottomColor="#2ECC71";
+	   }
+
+
+	   if(setpassword==""){
+		document.getElementById("iname5").innerHTML="Enter Your Email"
+		pwd.style.borderBottomColor="red";
+	   }else if(setpassword.length >8){
+		document.getElementById("iname5").innerHTML="Maximum 8 catectors "
+		pwd.style.borderBottomColor="red";
+	   }
+	   
+	   else{
+		document.getElementById("iname5").innerHTML=""
+		pwd.style.borderBottomColor="#2ECC71";
+		form.setInterval((e) => {
+			form.submit()
+		},5000);
+	   }
+
+   }
+      
+
+
 	
-  </table>
- </section>
+
+</script>
 </body>
 </html>

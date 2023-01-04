@@ -89,5 +89,22 @@
     border-radius:10%;
 }
 .footer{
-    background-color: #ccc;
+    background-color: rgb(241, 241, 241);
+}
+.color{
+    background-color: #adb5bd;
+}
+.resum{
+    width:100%;
+    display:none;
+}
+.btn1{
+    display: flex;
+    margin: auto;
+    border-radius:24px;
+
+}
+.btn1:hover{
+    background-color: black;
+    color:white;
 }
